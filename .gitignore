@@ -1,0 +1,26 @@
+# Dépendances (les fichiers installés par npm install)
+node_modules/
+jspm_packages/
+web_modules/
+
+# Dossiers de build / production (Vite et TypeScript)
+dist/
+out/
+build/
+
+# Fichiers de log de NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables d'environnement (sécurité)
+.env
+.env.local
+.env.*.local
+
+# Fichiers système et éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
